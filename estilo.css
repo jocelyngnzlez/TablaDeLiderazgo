@@ -1,0 +1,60 @@
+body {
+  background-color:#e6c4c0;
+}
+h1 {
+  font-family:"Courier New";
+  text-align:center;
+  font-weight: bold;  
+}
+p {
+  font-family:"Courier New";
+  font-weight: bold;
+}
+#datos {
+  background:#ca8a8b; 
+}
+div { 
+  font-family:"Courier New";
+  background:#ca8a8b;
+  margin:8px;
+  padding:5px;
+  width:100%;   }
+img {
+  width:75px;
+  height:auto;
+  display:block;
+  border-radius:30%;
+  box-shadow:5px 5px #424242;
+  padding:10px;  //colchon para el borde
+  border:5px solid #424242;  //sustituye la sombra
+}
+.menu {
+  width:100%;
+  background:#424242;
+  list-style:none;
+  margin:0px;
+  padding:0px;  }
+.menu li {
+  display:inline-block;  }
+.menu li a {
+  display:inline-block;
+  color:#FFF;
+  padding: 10px 20px;  }
+.menu li a:hover {
+  background:#CCC;
+  color:#000;  }  
+//Corregir segun lo que se muestra en la imagen de la tabla con sus estilos//
+
+table {
+  border:3px solid #5b6d5b;  //Observe y modifique sus propios colores!
+  border-collapse:collapse;
+  width:75px;  }
+table td {
+  font-weight: bold;
+  border:3px solid #5b6d5b;
+  padding:10px;  }
+table td:hover {
+  background:#e05297;
+  color:#FFF;  }
+table tr:hover {
+  background:#ea97ad; }
